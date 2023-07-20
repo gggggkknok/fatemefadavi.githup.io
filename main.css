@@ -1,0 +1,159 @@
+@font-face {
+    font-family: ubunto ;
+    src: url('src/Ubuntu\ Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #202124;  
+    font-family: ubunto;
+
+}
+hr{
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px ;
+
+}
+ i.fa{
+    color: #bb86fc;
+ }
+ .pb100{
+    width: 100%;
+ }
+ .pb80{
+    width: 80%;
+ }
+ .pb70{
+    width: 70%;
+ }
+ .pb40{
+    width: 40%;
+ }
+ .label{
+    padding: 3px 5px;
+    background-color: #bb86fc;
+    border-radius: 5px;
+ }
+.contianer {
+    width: 98%;
+    padding: 1%;
+
+}
+.left-sid {
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.right-sid {
+    display: inline-block;
+    width: 72%;
+    margin: 0.5%;
+    vertical-align: top;
+}
+.right-sid section {
+    background-color: #303134;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    padding: 30px;
+} 
+#profile-box{
+    position: relative;  
+}
+#profile-box #profile-img{
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+#profile-box #profile-name{
+    width: 96%;
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+     bottom: 2px;
+     left: 0 ;
+     font-size: 20px;
+}
+#description-box ul{
+    padding:15px ;
+}
+#description-box ul{
+    list-style: none;
+}
+#description-box ul li{
+    margin-bottom: 15px;
+}
+#description-box ul li i.fa{
+    color:#bb86fc;
+    font-size: 16px;
+}
+#description-box ul li span{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+.asid-item{
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+.item-titel{
+    margin-left: 5px;
+}
+.skill-item{
+    margin-top: 15px;
+}
+.progress-box {
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.progress-box .progress-bar{
+    background-color: #bb86fc;
+    padding: 5px;
+    border-radius: 15px;
+}
+.head-titel b{
+    font-size: 26px;
+    color: #fff;
+}
+.right-sid-item{
+    color: #fff;
+}
+.right-sid-item h3,
+.right-sid-item h4{
+    margin: 13px 0;
+}
+.right-sid-item p{
+    margin: 15px 0 40px;
+}
+footer {
+    background-color: #bb86fc; 
+    height:20px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+@media only screen  and (max-width:768px){
+    .left-sid{
+        display: block;
+        width: 99%;
+    }
+    .right-sid{
+        display: block;
+        width: 99%;
+    }
+}
+    
